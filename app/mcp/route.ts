@@ -1,3 +1,10 @@
+{
+  "openai/outputTemplate": widget.templateUri,      // Links to resource
+  "openai/toolInvocation/invoking": "Loading...",   // Loading state text
+  "openai/toolInvocation/invoked": "Loaded",        // Completion state text
+  "openai/widgetAccessible": false,                 // Widget visibility
+  "openai/resultCanProduceWidget": true            // Enable widget rendering
+}
 import { baseURL } from "@/baseUrl";
 import { createMcpHandler } from "mcp-handler";
 import { z } from "zod";
